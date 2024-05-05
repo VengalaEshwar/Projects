@@ -1,0 +1,64 @@
+*{
+    padding :0px;
+    margin : 0px;
+    /* height : 100%;
+    width : 100%; */
+    box-sizing: border-box;
+    font-family: cursive;
+}
+.main{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height : 100vh;
+    width : 100%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height : 60%;
+    width : 35%;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    /* box-shadow: [horizontal offset] [vertical offset] [blur radius] [spread radius] [color]; */
+}
+.game {
+    padding : 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height : 100%;
+    width : 100%;
+}
+.question,.input,.submit{
+    padding : 10px;
+    width : 90%;
+    text-align: center;
+    font-size: 30px;
+    border  : none;
+}
+.input{
+    background-color: transparent;
+    border : 8px solid green;
+    color : green;
+}   
+.submit{
+    background-color: rgb(226, 145, 14);
+}
+.submit:hover{
+    background-color: rgb(198, 144, 58);
+}
+.question{
+    color : rgb(78, 238, 4);
+    font-size: 40px;
+}
+.score{
+    align-self :flex-end;
+    font-size: 25px;
+    margin-right : 5%;
+    padding : 5px;
+}
