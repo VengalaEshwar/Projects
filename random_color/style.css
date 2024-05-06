@@ -1,0 +1,45 @@
+*{
+    padding : 0px;
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: cursive;
+}
+/* to top: The gradient goes from bottom to top.
+to right: The gradient goes from left to right.
+to bottom: The gradient goes from top to bottom.
+to left: The gradient goes from right to left.
+to top left: The gradient goes from bottom right to top left.
+to bottom right: The gradient goes from top left to bottom right.
+45deg: The gradient goes at a 45-degree angle from top left to bottom right. */
+body{
+    background-image: linear-gradient(to top left,red,blue ,violet,green,yellow);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin : 10px;
+}
+h1{
+    color: chartreuse;
+    font-size: 100px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding : 10px 35px 10px;
+}
+.color-box{
+    height : 250px;
+    width : 400px;
+    background-color: aqua;
+    margin: 25px;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+    text-shadow : 2px 2px 4px  rgba(0,0,0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border : 2px solid black;
+}
