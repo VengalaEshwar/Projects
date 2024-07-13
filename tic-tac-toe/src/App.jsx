@@ -8,6 +8,7 @@ function App() {
 
   return (
     <>
+     <div className="head">Tic Tac Toe</div>
     <Grid num={9} />
     </>
   )

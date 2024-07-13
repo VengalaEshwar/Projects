@@ -4,4 +4,8 @@
   padding: 2rem;
   text-align: center;
 }
-
+.head{
+  font-size: 5rem;
+  color : yellow;
+  text-align: center;
+}
