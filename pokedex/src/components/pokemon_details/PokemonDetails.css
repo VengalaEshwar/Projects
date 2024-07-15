@@ -1,0 +1,33 @@
+.pokemon-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin : 3% 35%;
+    padding: 2% 0;
+    border : 2px solid black;
+    justify-content: space-between;
+    height : 450px;
+    font-family: cursive;
+    background-color: white;
+}
+.pokemon-details img{
+    height : 300px;
+    width : 300px;
+}
+.poke-types{
+    margin-top : 10px;
+}
+.poke-name{
+    color :rgb(45, 46, 57);
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+}
+.poke-data{
+    font-size: 1.2rem;
+}
+.pokemon-details span{
+    background-color: rgb(255, 238, 0);
+    margin: 2rem;
+    padding: 0.6rem 0.8rem;
+    border-radius: 1rem;
+}

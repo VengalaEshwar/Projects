@@ -1,0 +1,30 @@
+.pokemon-grid{
+    width : 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.poke-box{
+    width : 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.poke-button{
+    margin : 25px auto;
+    display: flex;
+    justify-content: center;
+}
+.poke-button button{
+    margin : 0 10px;
+    padding : 8px 25px;
+    border: none;
+    background-color: rgb(141, 141, 181);
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.2s;
+}
+.poke-button button:hover{
+    background-color: rgb(65, 65, 226);
+}

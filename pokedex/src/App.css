@@ -1,0 +1,21 @@
+.app-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.main{
+    display: dlex;
+    justify-content: center;
+}
+.title{
+    font-size: 3rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 0.1rem;
+    color: blue;
+    letter-spacing: 0.6rem;
+    text-align: center;
+}
+.title a{
+    text-decoration: none;
+}
